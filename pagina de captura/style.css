@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%; 
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+header{
+   background-color: #48C5CE;
+   color: white;
+   font-family: Verdana, Tahoma, sans-serif;
+   font-size: 1.4em;
+   padding: 10px;
+   text-align: center;
+}
+
+
+.container{
+    max-width: 1000px;  /*largura maxima do conteudo , tudo vai se ajustar em volta dele */
+    min-width: 500px ;
+    margin: auto;
+    overflow: hidden;
+  
+}
+
+section{
+    background-color: brown;
+    overflow: hidden;           /*permite que a divcontainer fique dentro dela ou seja na frente da div section*/
+    padding: 12px;
+    background-image: url(./imagem/people.jpg);  /* a imagem tem que ser colocada como plano de fundo da section*/
+    padding-bottom: 18%;
+    background-size: cover;                     /* dessa forma ela cobre completamente a div*/
+}   
+.formcontainer{
+    background-color: chartreuse;
+    width: 31%;
+    float: right;
+    padding: 10px;
+    background-color: #FFFFFFBB;
+    overflow: auto;  /*permite o texto fica dentro , ou por cima do meu container */
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.589);
+}
+
+.texto{
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+.dados{
+    padding: 3%;
+    margin: 2%;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;  /*esse comando alinha todas as caxa de texto*/
+    border: none ;
+
+}
+
+input[type="submit"]{              /*assim que selecona um input especifico*/
+    background-color: #48C5CE;
+}
+
+footer{
+    background-color: #1A1B1B;
+    padding: 10%;
+    padding-top:2% ; 
+    margin-top: -12%;
+    overflow: hidden;
+    padding-bottom: 12px;
+}
+
+
+.containerfoto{
+   
+    float: left;
+    background-image: url(./imagem/face.jpg);
+    background-size: cover;
+    width: 246px;
+    height: 65px;
+    padding-bottom: 241px;
+    padding-top: 73px
+    
+}
+
+footer > p{
+    color: white;
+    text-indent: 30px;
+    overflow: hidden;
+    padding: 90px;
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 500px) { 
+
+    .containerfoto{
+        float: none;
+        margin: auto;
+    }
+    footer > p {
+        text-align: center;
+    }
+    
+}
