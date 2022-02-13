@@ -3,4 +3,4 @@
 
  Olá, mundo !
 
- Este é apena uma de memo e não representa a qualidade do prodtuto final.
+ Este é apena uma de demo e não representa a qualidade do prodtuto final.
